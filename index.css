@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #04468B 0%, #7FCAE3 100%);
+
+}
+
+.box {
+    height: 600px;
+    width: 400px;
+    margin: 5px;
+    border: 10px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    background: linear-gradient(90deg, #7FCAE3 0%, #04468B 100%);
+}
+   
+.trademark{
+    font-size: 30px;
+}
+
+input {
+    left: 5px;
+    top: 20px;
+    border: 0;
+    color: black;
+    background: linear-gradient(90deg, #e9d38d 0%, #e7c70f 100%);
+    border-radius: 3px;
+    width: 80px;
+    height: 70px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ok {
+    flex: auto;
+    width: auto;
+    margin: 5px 23px 10px 23px;
+    background-color: white;
+}
+
+.screen {
+    display: flex;
+    text-align: right;
+    width: auto;
+    height: 100px;
+    margin: -17px 0 28px 0;
+    background: white;
+    color: black;
+}
+
+.operator {
+    background: linear-gradient(90deg, #68a31b 0%, #175504 100%);
+}
+
+#drop{
+    background: linear-gradient(90deg, #c03d31 0%, #b42208 100%);
+}
+
+input:focus, #drop:focus {
+    box-shadow: 0 5px 5px 0 #ffffff;
+    font-size: 45px;
+    background: #9ada9f;
+}
+
