@@ -20,7 +20,6 @@ for(let i = 0; i < numbers.length; i++){
     }
 }
 
-
 ok.onclick = () => {
   data = document.querySelector('#screen').value;
 
